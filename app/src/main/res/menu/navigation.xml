@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:title="@string/order" />
+
+    <item
+        android:id="@+id/so_do"
+        android:icon="@drawable/ic_view_carousel_black_24dp"
+        android:title="@string/so_do" />
+
+    <item
+        android:id="@+id/tra_mon"
+        android:icon="@drawable/ic_room_service_white_24dp"
+        android:title="@string/tra_mon" />
+    <item
+        android:id="@+id/tam_tinh"
+        android:icon="@drawable/ic_note_black_24dp"
+        android:title="@string/tam_tinh" />
+</menu>

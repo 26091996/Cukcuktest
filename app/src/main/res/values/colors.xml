@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextTienIch">#455A64</color>
+    <color name="tab_1">#FB8C00</color>
+    <color name="tab_2">#43A047</color>
+    <color name="tab_3">#F50057</color>
+    <color name="tab_4">#546E7A</color>
+    <color name="tab_5">#00897B</color>
+    <color name="green_a400">#00E676</color>
+    <color name="teal">#009688</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="deep_orange">#ff5722</color>
+    <color name="red_400">#ef5350</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red_500">#f44336</color>
+</resources>

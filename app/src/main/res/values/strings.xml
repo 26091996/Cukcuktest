@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cukcuktest</string>
+    <string name="Home">Trang chủ</string>
+    <string name="dong_bo">Đồng bộ dữ liệu</string>
+    <string name="danh_sach_hoa_don">Danh sách hóa đơn</string>
+    <string name="thiet_lap">Thiết lập</string>
+    <string name="thay_doi_mat_khau">Thay đổi mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="lich_su_bep_bar">Lịch sử bếp bar</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <string name="order">Order</string>
+    <string name="so_do">Sơ đồ</string>
+    <string name="tra_mon">Trả món</string>
+    <string name="tam_tinh">Tạm tính</string>
+    <string name="tien_ich">Tiện ích</string>
+    <string name="syn">Đồng bộ dữ liệu</string>
+    <string name="hoa_don">Danh sách hóa đơn</string>
+    <string name="setting">Thiết lập</string>
+    <string name="anh_thuc_don">Ảnh thực đơn</string>
+    <string name="lich_su">Lịch sử gửi bếp/bar</string>
+    <string name="ngon_ngu">Thiết lập ngôn ngữ</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="gioi_thieu">Giới thiệu cho bạn bè</string>
+    <string name="danh_gia">Đánh giá ứng dụng</string>
+    <string name="gop_y">Góp ý nhà phát triển</string>
+    <string name="thong_bao_loi">Gửi thông báo lỗi</string>
+    <string name="thong_tin">Thông tin sản phẩm</string>
+</resources>

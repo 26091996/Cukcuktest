@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tab_colors">
+        <item name="tab_hay_dung">#FF9800</item>
+        <item name="tab_dac_trung">#4CAF50</item>
+        <item name="tab_mon_an">#FF4081</item>
+        <item name="tab_do_uong">#607D8B</item>
+        <item name="tab_combo">#009688</item>
+    </array>
+    <array name="tab_colors_dark">
+        <item name="day_dung_dark">#FB8C00</item>
+        <item name="dac_trung_dark">#43A047</item>
+        <item name="mon_an_dark">#F50057</item>
+        <item name="do_uong_dark">#546E7A</item>
+        <item name="combo_dark">#00897B</item>
+    </array>
+    <string-array name="default_preview">
+        <item>#FB8C00</item>
+        <item>#43A047</item>
+        <item>#F50057</item>
+        <item>#546E7A</item>
+        <item>#00897B</item>
+    </string-array>
+    <array name="icons_tien_ich">
+        <item name="thiet_lap">ic_settings_black_24dp</item>
+        <item name="dong_bo">ic_cloud_download_black_24dp</item>
+        <item name="anh_thuc_don">ic_photo_library_black_24dp</item>
+        <item name="lich_su">ic_room_service_black_24dp</item>
+        <item name="danh_sach">ic_event_note_black_24dp</item>
+        </array>
+    <array name="icons_tien_ich_tro_giup">
+        <item>ic_language_black_24dp</item>
+        <item>ic_notifications_black_24dp</item>
+        <item>ic_share_black_24dp</item>
+        <item>ic_stars_black_24dp</item>
+        <item>ic_email_black_24dp</item>
+        <item>ic_error_black_24dp</item>
+        <item>ic_info_black_24dp</item>
+    </array>
+</resources>

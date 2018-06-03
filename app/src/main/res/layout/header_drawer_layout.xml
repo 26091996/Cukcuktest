@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/drawer">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/icons_drawer" />
+
+    <TextView
+        android:id="@+id/txtUer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/circleView"
+        android:layout_alignStart="@+id/circleView"
+        android:layout_below="@+id/circleView"
+        android:layout_marginTop="10dp"
+        android:text="Developer"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/circleView"
+        android:layout_alignStart="@+id/circleView"
+        android:layout_below="@+id/txtUer"
+        android:text="leroivinguoi1996@gmail.com"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>

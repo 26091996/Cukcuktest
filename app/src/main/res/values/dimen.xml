@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">150dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="actionBarSize">56dp</dimen>
+    <dimen name="img_height">200dp</dimen>
+    <dimen name="space_padding">8dp</dimen>
+    <dimen name="space_padding_small">4dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="rv_height">400dp</dimen>
+</resources>

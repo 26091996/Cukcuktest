@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/Home"
+        />
+
+    <item
+        android:id="@+id/hoa_don"
+        android:icon="@drawable/note_list"
+        android:title="@string/danh_sach_hoa_don" />
+
+    <item
+        android:id="@+id/bep_bar"
+        android:icon="@drawable/ic_room_service_white_24dp"
+        android:title="@string/lich_su_bep_bar" />
+    <item
+        android:id="@+id/dong_bo"
+        android:icon="@drawable/ic_cloud_download_black_24dp"
+        android:title="@string/dong_bo" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/thiet_lap" />
+    <item android:title="Tài khoản">
+
+        <menu>
+            <item
+                android:id="@+id/thay_doi_mk"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="@string/thay_doi_mat_khau"
+                />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="@string/logout"
+                />
+
+        </menu>
+    </item>
+</menu>

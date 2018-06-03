@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Order.Order_Detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/space_padding">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_dinnerTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/padding_16"
+                android:textColor="@color/nliveo_black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_route_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_padding"
+            android:drawablePadding="@dimen/space_padding"
+            android:drawableStart="@drawable/ic_menu_visit" />
+
+        <TextView
+            android:id="@+id/tv_order_date_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_padding"
+            android:drawablePadding="@dimen/space_padding"
+            android:drawableStart="@drawable/ic_time_green"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_delivery_date_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_padding"
+            android:drawablePadding="@dimen/space_padding"
+            android:drawableStart="@drawable/ic_time_indigo"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:padding="@dimen/space_padding">
+
+            <TextView
+                android:id="@+id/tv_total_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/space_padding"
+                android:paddingTop="@dimen/space_padding"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/img_SendDetail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_send"
+                android:src="@drawable/ic_near_me_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/img_OK"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_tick"
+                android:src="@drawable/baseline_done_white_18dp" />
+
+            <ImageButton
+                android:id="@+id/img_SaveDetail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_save"
+                android:src="@drawable/ic_save_white_24dp" />
+        </LinearLayout>
+
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/rv_tcb"
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/rv_height"
+           android:divider="#494848"
+           android:dividerHeight="1dp"
+           tools:listitem="@layout/item_menu"
+           />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ghi chú"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#0277BD"
+        android:textColor="#ffffff"
+        />
+    <EditText
+        android:id="@+id/edt_GhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ghi chú"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="#999797"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_GhiChuHuyBo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_btn_huybo"
+            android:text="Hủy bỏ"
+            android:textColor="#ff0000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_GhiChuDongY"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bacground_btn_dongy"
+            android:text="Đồng ý"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
